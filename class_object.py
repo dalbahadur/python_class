@@ -48,5 +48,12 @@ projectors.append(p3)
 print(list(projectors)) 
 
 
+class Student:
+    def __init__(self,name,address) -> None:
+        self.name=name
+        self.address=address
+    
 
-
+    def Show(self):
+        print(f"{self.name}")
+        
