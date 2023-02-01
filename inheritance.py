@@ -39,7 +39,7 @@ s.walk()
 
  """
 
-""" class User:
+ class User:
     def __init__(self,username,password) -> None:
       self.username=username
       self.password=password
@@ -75,7 +75,7 @@ class Teacher(Person):
 t=Teacher("prem@gmail.com","1254","prem","ktm","professor")
 t.profile()
 
- """
+
 
 class ProdcutError(Exception):
     pass
@@ -100,6 +100,13 @@ try:
 except ProdcutError as msg:
     print(msg)
     print(f"after exception:{tshirt.Price}")
+    
 
 
 
+class Country:
+    def __init__(self,people,land) -> None:
+        self.people=people
+        self.land=land
+        
+        
